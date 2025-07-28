@@ -1,0 +1,50 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=La+Belle+Aurore&family=Merienda:wght@300..900&family=Nanum+Gothic&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Slabo+27px&display=swap');
+
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", serif;
+
+}
+
+.one {
+  background-image: url(bg3.jpg);
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.one .main {
+  background-color: rgb(224, 232, 243);
+  border: 1px solid black;
+  height: 550px;
+  width: 450px;
+  border-radius: 5%;
+  opacity: 0.7;
+  justify-items: center;
+  box-shadow: 3px 3px 8px rgb(110, 150, 172);
+}
+.a1{
+    position: relative;
+    left: 150px;
+    
+}
+#btn1 {
+  background-color: rgb(172, 220, 247);
+  border: 1px solid rgb(46, 60, 68);
+  height: 30px;
+  width: 100%;
+
+}
+#btn1:hover {
+  background-color: rgb(74, 137, 209);
+  border: 1px solid rgb(46, 60, 68);
+ 
+}
